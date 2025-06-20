@@ -5,6 +5,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
+    "preview": "slidev --remote=123456 --tunnel",
     "export": "slidev export"
   },
   "dependencies": {

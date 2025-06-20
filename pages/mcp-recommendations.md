@@ -62,11 +62,24 @@ layout: default
 layout: default
 ---
 
+## 非研发岗位的一些mcp
+- [mysql](https://smithery.ai/server/@michael7736/mysql-mcp-server)
+- [pg](https://smithery.ai/server/@michael7736/mysql-mcp-server)
+
+
+
+
+---
+layout: default
+---
+
 ## 使用建议
 
 <div class="space-y-4 mt-8">
 
 ### 🎯 选择原则
+
+推荐网站 https://smithery.ai/
 
 - 根据具体需求选择对应MCP
 - 考虑成本效益比

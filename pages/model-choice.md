@@ -85,14 +85,14 @@ layout: default
 
 # 重要考量因素
 
-<div class="bg-amber-200/30 backdrop-blur-sm border border-amber-300 rounded-lg p-6 shadow-lg">
+<div class="bg-amber-200/30 backdrop-blur-sm border border-amber-300 rounded-lg p-6 shadow-lg w-full">
   <h3 class="font-bold text-lg text-white mb-4">模型上下文长度限制</h3>
   
   <div class="space-y-4">
     <p class="text-amber-100 mb-4">选择模型时需要特别注意：</p>
     <div class="flex gap-4 overflow-hidden">
-      <img src="/context.png" alt="模型上下文长度限制" class="w-1/2 h-auto object-contain">
-      <img src="/Intelligence&Context.png" alt="模型智力和上下文长度" class="w-1/2 h-auto object-contain">
+      <img src="/context.png" alt="模型上下文长度限制" class="w-1/2 h-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300" onclick="window.open(this.src, '_blank')">
+      <img src="/Intelligence&Context.png" alt="模型智力和上下文长度" class="w-1/2 h-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300" onclick="window.open(this.src, '_blank')">
     </div>
   </div>
 </div>
