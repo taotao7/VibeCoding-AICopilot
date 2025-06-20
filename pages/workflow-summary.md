@@ -100,6 +100,7 @@ layout: default
 - 重视代码Review
 - 合理控制上下文范围
 - 拆分需求粒度
+- TDD 测试驱动开发很适合AI Agent
 
 </div>
 <div>
