@@ -65,10 +65,6 @@ src: ./pages/mcp-recommendations.md
 hide: false
 ---
 
----
-src: ./pages/aider-deep-dive.md
-hide: false
----
 
 ---
 src: ./pages/workflow-summary.md

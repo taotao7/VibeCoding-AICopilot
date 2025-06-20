@@ -1,9 +1,10 @@
 ---
 layout: center
 class: text-center
+transition: fade
 ---
 
-# 工作流总结 🎯
+# 工作流总结 
 
 ---
 layout: default
@@ -13,7 +14,7 @@ layout: default
 
 <div class="text-center mb-8 mt-8">
 
-### 传统开发模式
+### 开发模式
 
 通过Aider实现完整的AI辅助编程工作流
 
@@ -22,20 +23,22 @@ layout: default
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-### 🔧 核心命令
+###  核心命令
 
-- `AI?` - 代表向AI提问
-- `AI!` - 触发AI编辑
-- `aider --commit` - AI生成commit信息
-- `aider --browser` - 启动服务前端界面
+- AI? - 代表向AI提问
+- AI! - 触发AI编辑
+- aider --commit - AI生成commit信息
+- aider --browser - 启动服务前端界面
+- ...
 
 </div>
 <div>
 
-### 🌟 优势
+###  优势
 
 - 完全命令行操作
 - 灵活的触发方式
+- 容易进入心流状态
 - 强大的上下文理解
 - 多模型协作
 
@@ -50,7 +53,7 @@ layout: default
 
 <div class="space-y-6 mt-8">
 
-### 🎯 任务分类选择
+### 任务分类选择
 
 <div class="grid grid-cols-3 gap-4">
 <div class="text-center">
@@ -62,7 +65,7 @@ GPT-o3 Ask Mode
 <div class="text-center">
 
 **代码实现**  
-Claude-4 Manual Mode
+Claude-4 Agent Mode
 
 </div>
 <div class="text-center">
@@ -73,11 +76,11 @@ Gemini 2.5-Pro
 </div>
 </div>
 
-### 🔄 工具组合
+### 工具组合
 
 - **Cursor**: 主要开发环境
-- **Jules**: 简单任务处理
 - **Aider**: 复杂上下文和结对编程
+- **Jules**: 简单任务处理 （例如国际化）
 - **MCP**: 特定功能增强
 
 </div>
@@ -86,12 +89,12 @@ Gemini 2.5-Pro
 layout: default
 ---
 
-## 关键建议 💡
+## 关键建议 
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 <div>
 
-### ✅ 最佳实践
+###  最佳实践
 
 - 根据任务复杂度选择工具
 - 重视代码Review
@@ -101,12 +104,14 @@ layout: default
 </div>
 <div>
 
-### ⚠️ 注意事项
+### ️ 注意事项
 
+- AI Copilot & Agent 除了提效更应该写出高质量代码，纯粹的快只会让项目不断熵增
 - 关闭自动commit
-- 不盲目追求max token
+- 不盲目追求vibe coding
+- 项目的规划和架构设计才是能够长期发展的关键
 - 手动添加必要上下文
-- 保持代码质量意识
+- 限制AI的活动
 
 </div>
 </div>
