@@ -25,6 +25,7 @@ transition: fade
 - Token消耗不低
 - 建议等新的deepseek模型降价
 - 需要学习成本
+- 没有cursor agent 和claude code 的自动测试功能,需要主动让他测
 
 </div>
 </div>
